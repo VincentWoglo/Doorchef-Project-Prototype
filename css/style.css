@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url(../image/dylan-ferreira-0cv08T71zL0-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.logo{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 2em;
+  font-size: 1.5rem;
+}
+.w,.login,.chef{
+  margin-left: 2em;
+}
+.right-menu{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+.logo,.right-menu{
+  display: inline-block;
+  color: #fff;
+}
+.chef{
+  padding: 10px 30px 10px 30px;
+  background-color: #fff;
+  border: 1px #fff solid;
+  border-radius: 100px
+
+}
+.right-menu{
+  position: absolute;
+  display: inline-block;
+  margin-left: 61%;
+  margin-right: 2em;
+}
+.w,.login{
+  display: inline-block;
+
+}
+nav{
+  margin-top: 1em;
+}
+.right{
+  margin-left: 10em;
+  transform: translate(0%,30%);
+  text-align: center;
+  padding: 40px 10px 40px 10px;
+  width: 400px;
+  background-color: #fff;
+  border: 1px #fff solid;
+  font-family: 'Roboto', sans-serif;
+}
+.whole{
+}
+.firstname,.lastname,.email,.username,.password{
+  font-size: 15px;
+  padding: 8px 10px 8px 10px;
+  width: 300px;
+  margin-top: 1em;
+  border: 1px#eee solid;
+}
+.all-chef{
+  color: #d8d8d8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+.welcome{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #444444;
+}
+.signup{
+    font-size: 15px;
+  padding: 8px 10px 8px 10px;
+  width: 325px;
+  margin-top: 1em;
+  cursor: pointer;
+  background-color: #f5664a;
+  border: 1px #f5664a solid;
+  color: #fff;
+}
+.left{
+  margin-left: 10em;
+}
+.left,.right{
+  display: inline-block;
+}
+.hire{
+  font-size: 4rem;
+  color: #fff;
+  width: 10em;
+  font-family: 'Roboto', sans-serif;
+}
+.become{
+  padding: 10px 50px 10px 50px;
+  cursor: pointer;
+  background-color: #f5664a;
+  border: 1px #f5664a solid;
+  color: #fff;
+  border-radius: 2px;
+  margin-top: 2em;
+  margin-;
+}
+.check,.terms{
+  display: inline-block;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.terms{
+  margin-left: 3px;
+  width: 300px;
+  font-size: .84rem;
+  color: #8a8a8a;
+}

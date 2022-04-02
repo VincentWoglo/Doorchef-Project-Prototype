@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #fafafafa;
+}
+.right{
+  text-align: center;
+  width: 400px;
+  background-color: #fff;
+  border: 1px #fff solid;
+  font-family: 'Roboto', sans-serif;
+}
+.whole{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  padding: 40px 10px 40px 10px;
+  border: 1px #fff solid;
+  box-shadow: -1px 1px 14px -1px rgba(212, 212, 212, 0.4);
+  width: 400px;
+  text-align: center;
+}
+.firstname,.lastname,.email,.username,.password{
+  font-size: 15px;
+  padding: 8px 10px 8px 10px;
+  width: 300px;
+  margin-top: 1em;
+  border: 1px#eee solid;
+}
+.all-chef{
+  color: #d8d8d8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+.welcome{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #444444;
+}
+.signup{
+    font-size: 15px;
+  padding: 8px 10px 8px 10px;
+  width: 325px;
+  margin-top: 1em;
+  cursor: pointer;
+  background-color: #f5664a;
+  border: 1px #f5664a solid;
+  color: #fff;
+}
+.left{
+  margin-left: 10em;
+}
+.left,.right{
+  display: inline-block;
+}
+.hire{
+  font-size: 4rem;
+  color: #fff;
+  width: 10em;
+  font-family: 'Roboto', sans-serif;
+}
+.become{
+  padding: 10px 50px 10px 50px;
+  cursor: pointer;
+  background-color: #f5664a;
+  border: 1px #f5664a solid;
+  color: #fff;
+  border-radius: 2px;
+  margin-top: 2em;
+  margin-;
+}
+.check,.terms{
+  display: inline-block;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.terms{
+  margin-left: 3px;
+  width: 300px;
+  font-size: .84rem;
+  color: #8a8a8a;
+}
+.upload-title{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

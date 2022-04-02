@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.whole{
+  width: 85%;
+  margin: auto;
+  padding: 20px
+}
+.results{
+  margin-top: 44px;
+}
+.number-results{
+  margin-bottom: 32px;
+}
+.container{
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.products{
+  border: 1px #e6e6e6 solid;
+  width: 305px;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+.list{
+  padding: 10px;
+}
+.list .pricing{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  align-items: center;
+}
+.list-foodtype{
+  background-color: #f5664a;
+  border: 1px #f5664a solid;
+  padding: 5px 20px;
+}
+.list-img{
+  width: 305px;
+  height: 30vh;
+}
+.list-title{
+  margin-bottom: 10px;
+  font-size: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.list-description{
+  margin-bottom: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.sold-by{
+  display: flex;
+  margin-top: 5px;
+}
+.list-solby-name{
+  margin-left: 5px;
+}
+.list-getorder{
+  width: 100%;
+  margin-top: 24px;
+  padding: 10px;
+  cursor: pointer;
+}

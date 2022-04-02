@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #fafafafa;
+}
+.whole{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff;
+  padding: 40px 10px 40px 10px;
+  border: 1px #fff solid;
+  box-shadow: -1px 1px 14px -1px rgba(212, 212, 212, 0.4);
+  width: 400px;
+  text-align: center;
+}
+.welcome{
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #444444;
+  margin-bottom: 2em;
+}
+.email,.password{
+  font-size: 15px;
+  padding: 8px 10px 8px 10px;
+  width: 300px;
+  margin-top: 1em;
+  border: 1px#eee solid;
+}
+.signin{
+    font-size: 15px;
+    padding: 8px 10px 8px 10px;
+    width: 325px;
+    margin-top: 3em;
+    cursor: pointer;
+    background-color: #f5664a;
+    border: 1px #f5664a solid;
+    color: #fff;
+}
+
+.error_reporting{
+  color: #d01d1d;
+  margin-bottom: .5em;
+}
