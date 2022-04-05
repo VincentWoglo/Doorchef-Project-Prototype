@@ -22,17 +22,19 @@ if (!$query) {
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+  <head> 
     <meta charset="utf-8">
     <title><?=$row['title'];?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/product.css?v=<?php echo time();?>">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="whole">
+      <div class="image-wrapper">
       <img src="image/<?=$row['image'];?>" class="image" alt="">
+      </div>
       <div class="title-info">
         <p class="title"><?=$row['title'];?></p>
         <p class="location"><?=$row['city'];?>, <?=$row['state'];?></p>

@@ -43,7 +43,6 @@ $query -> execute();
                             <p class="list-title"><?=$row['title'];?>
                         </a></p>
                         <p class="list-description"><?=$row['description'];?></p>
-                        <p class="list-location"><i class="far fa-map"></i> <?=$row['city'];?>, <?=$row['state'];?></p>
                         <div class="sold-by">
                         <p class="list-soldby">Soldby:</p>
                         <p class="list-solby-name"><?=$row['soldby'];?></p>

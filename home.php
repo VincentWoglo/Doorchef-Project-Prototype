@@ -6,7 +6,7 @@ include_once("PHP/db_conn.php");
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home.css?v=<?php echo time();?>">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <title>DoorChef</title>
@@ -26,16 +26,18 @@ $select ->execute();
 
 while ($row=$select->fetch()){?>
       <div class="products">
-
-        <a href="product.php?title=<?php echo $row['title'];?>&& id=<?php echo $row['id'];?>&&seller=<?php echo $row['soldby'];?>"><input type="submit" name="" class="list-getorder"value="Get Order"></a>
         <img src="image/<?=$row['image'];?>" class="list-img"alt=""><br>
       <div class="list">
+        <div class="pricing">
         <input type="submit" name="" class="list-foodtype" value="<?=$row['foodtype'];?>">
         <p class="list-price">$<?=$row['price'];?>.00</p>
+        </div>
         <a href="product.php?title=<?php echo $row['title'];?>&& id=<?php echo $row['id'];?>&&seller=<?php echo $row['soldby'];?>"><p class="list-title"><?=$row['title'];?></a></p>
         <p class="list-description"><?=$row['description'];?></p>
-        <p class="list-location"><i class="far fa-map"></i> <?=$row['city'];?>, <?=$row['state'];?></p>
+        <div class="sold-by">
         <p class="list-soldby">Soldby:</p><p class="list-solby-name"><?=$row['soldby'];?></p>
+        </div>
+        <a href="product.php?title=<?php echo $row['title'];?>&& id=<?php echo $row['id'];?>&&seller=<?php echo $row['soldby'];?>"><input type="submit" name="" class="list-getorder"value="Get Order"></a>
       </div>
       </div>
 <?php }?>
