@@ -313,7 +313,7 @@ a:visited{
 .title-info{
   font-family: 'Poppins';
   padding: 20px 20px 20px 20px;
-  width: 75%;
+  width: 80%;
   margin: auto;
 }
 .rest{
@@ -325,7 +325,7 @@ a:visited{
   font-family: 'Poppins';
   background-color: #fff;
   min-width: 300px;
-  width: 70%;
+  margin: auto;width: 70%;
   border: 1px #ffffff solid;
 }
 .description-title{
@@ -351,7 +351,7 @@ width: 80%;}
   width: 70%;
   min-width: 300px;
   border: 1px #ffffff solid;
-}
+margin: auto;}
 .comments{
 
   padding: 20px 20px 20px;
@@ -564,42 +564,4 @@ width:80%;
 }
 }
 @media  only screen and (max-width: 700px){
-
-.desc{
-  font-family: 'Poppins';
-  background-color: #fff;
-  width: 90%;
-  border: 1px #ffffff solid;
-}
-.sub-whole{
-  
-}
-.rest{
-  padding: 50px 0px 0px 0px;
-}
-.about-seller{
-width:90%;
-}.comments{
-  width: 90%;
-}
-}
-@media only screen and (max-width: 700px){
-
-.desc{
-  font-family: 'Poppins';
-  background-color: #fff;
-  width: 90%;
-  border: 1px #ffffff solid;
-}
-.sub-whole{
-  
-width: 100%;}
-.rest{
-  padding: 50px 0px 0px 0px;
-/* width: 100%; */}
-.about-seller{
-width:90%;
-}.comments{
-  width: 90%;
-}
 }
