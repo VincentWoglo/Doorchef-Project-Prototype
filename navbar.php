@@ -38,7 +38,7 @@
             }
             elseif ($_SESSION['users']) {
 
-                echo "<li class='dashboard-nav'>Dashboard</li>
+                echo "
               <a href='logout.php'><li class='logout-nav'>Log Out</a></li>
                                           ";
 
