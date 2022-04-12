@@ -5,33 +5,36 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
-}
-.whole{
-  width: 85%;
-  margin: auto;
-  padding: 20px
+
+  background-color: #e6e6e6;
 }
 .results{
   margin-top: 44px;
 }
 .number-results{
   margin-bottom: 32px;
+  width: 85%;
+  margin: auto;
 }
 .container{
+  background-color: #ffffff;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 20px 20px 20px 20px;
   display: flex;
   gap: 24px;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: auto;
 }
 .products{
   border: 1px #e6e6e6 solid;
   width: 305px;
   border-radius: 5px;
-  margin-bottom: 2em;
 }
 .list{
   padding: 10px;
+  color: #746d6d;
 }
 .list .pricing{
   display: flex;
@@ -40,8 +43,8 @@ body{
   align-items: center;
 }
 .list-foodtype{
-  background-color: #f5664a;
-  border: 1px #f5664a solid;
+  background-color: #fea;
+  border: 1px #fea solid;
   padding: 5px 20px;
 }
 .list-img{
@@ -55,6 +58,9 @@ body{
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;  
   overflow: hidden;
+}
+.list-title:hover{
+  text-decoration: underline;
 }
 .list-description{
   margin-bottom: 5px;
@@ -75,4 +81,40 @@ body{
   margin-top: 24px;
   padding: 10px;
   cursor: pointer;
+  background-color: #f3664a;
+  border: 1px #f3664a solid;
+  
+}
+@media only screen and (max-width: 1139px){
+  .products{
+    border: 1px #e6e6e6 solid;
+    width: 400px;
+    border-radius: 5px;
+  }
+  .list-img{
+    width: 400px;
+    height: 40vh;
+  }
+}
+@media only screen and (max-width: 988px){
+  .products{
+    border: 1px #e6e6e6 solid;
+    width: 350px;
+    border-radius: 5px;
+  }
+  .list-img{
+    width: 350px;
+    height: 30vh;
+  }
+}
+@media only screen and (max-width: 870px){
+  .products{
+    border: 1px #e6e6e6 solid;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .list-img{
+    width: 100%;
+    height: 50vh;
+  }
 }

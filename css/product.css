@@ -3,12 +3,13 @@
   padding: 0;
   scroll-behavior: smooth;
 }
-.image{
+.image-wrapper{
   background-size: cover;
   max-height: 70vh;
   width: 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  margin: auto;
 }
 .title{
   font-size: 24px;
@@ -122,7 +123,7 @@ a:visited{
   margin-bottom: 2em;
 }
 .sub-whole{
-  margin-left: 10%;
+  
 }
 
 
@@ -263,7 +264,7 @@ margin-top: 1em;
   border: 1px #ffffff solid;
 }
 .sub-whole{
-  margin-left: 15%;
+  
 }
 .rest{
   padding: 50px 0px 0px 0px;
@@ -312,7 +313,8 @@ a:visited{
 .title-info{
   font-family: 'Poppins';
   padding: 20px 20px 20px 20px;
-  margin-left: 10%;
+  width: 75%;
+  margin: auto;
 }
 .rest{
   background-color: #f1f1f1;
@@ -323,7 +325,7 @@ a:visited{
   font-family: 'Poppins';
   background-color: #fff;
   min-width: 300px;
-  width: 50%;
+  width: 70%;
   border: 1px #ffffff solid;
 }
 .description-title{
@@ -335,7 +337,7 @@ a:visited{
   color:#333;
   font-size: .99rem;
   line-height: 2em;
-}
+width: 80%;}
 .red-hr{
   border: .5px #e86c60 solid;
   width: 50px;
@@ -346,7 +348,7 @@ a:visited{
   font-family: 'Poppins';
   margin-top: 2em;
   background-color: #fff;
-  width: 50%;
+  width: 70%;
   min-width: 300px;
   border: 1px #ffffff solid;
 }
@@ -409,7 +411,7 @@ a:visited{
   margin-bottom: 2em;
 }
 .sub-whole{
-  margin-left: 10%;
+  
 }
 
 
@@ -550,7 +552,7 @@ margin-top: 1em;
   border: 1px #ffffff solid;
 }
 .sub-whole{
-  margin-left: 15%;
+  
 }
 .rest{
   padding: 50px 0px 0px 0px;
@@ -561,7 +563,7 @@ width:80%;
   width: 80%;
 }
 }
-@media screen and (max-width: 700px){
+@media  only screen and (max-width: 700px){
 
 .desc{
   font-family: 'Poppins';
@@ -570,7 +572,7 @@ width:80%;
   border: 1px #ffffff solid;
 }
 .sub-whole{
-  margin-left: 5%;
+  
 }
 .rest{
   padding: 50px 0px 0px 0px;
@@ -581,7 +583,7 @@ width:90%;
   width: 90%;
 }
 }
- screen and (max-width: 700px){
+@media only screen and (max-width: 700px){
 
 .desc{
   font-family: 'Poppins';
@@ -590,11 +592,11 @@ width:90%;
   border: 1px #ffffff solid;
 }
 .sub-whole{
-  margin-left: 5%;
-}
+  
+width: 100%;}
 .rest{
   padding: 50px 0px 0px 0px;
-}
+/* width: 100%; */}
 .about-seller{
 width:90%;
 }.comments{
